@@ -1,0 +1,117 @@
+/*Table of Contents
+CSS Reset
+Header
+About Me
+My Skills
+Map
+Experience
+Contact
+*/
+
+
+/*--- CSS Reset ---*/
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/*border: 1px solid green*/
+}
+
+/*Universal*/
+
+body {
+  font-size: 1rem;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+}
+
+section, footer {
+  padding: 10vh 10vw;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  color: #b300b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/*Typography*/
+
+
+h1, h2 ,h3, h4, h5, h6 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #ffb5e8;
+}
+
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+h3, h4 {
+  color: #b300b3;
+}
+
+
+.featured_border {
+  background-color: #b300b3;
+}
+
+.featured_border .featured_inner {
+  background-color: white;
+  padding: 10vh 8vw;
+}
+
+/*Header*/
+
+.top-banner {
+  background-image: url("../images/giphy.gif");
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#darkpink {
+  color: #b300b3;
+}
+
+/*About Me*/
+
+/*My Skills*/
+
+#foods .fa {
+padding-right: 2%;
+
+}
+
+/*Map*/
+
+
+
+/*Experience*/
+
+/*Contact*/
+
+footer {
+  text-align: center;
+}
+
+footer a, footer h2 {
+  color: white;
+}
